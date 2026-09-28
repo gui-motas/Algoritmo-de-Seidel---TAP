@@ -52,7 +52,7 @@ public class GaussSeidel {
 
             System.out.println();
             if (!critLinhas && !critColunas && !sassenfeldSatisfeito) {
-                System.out.println("Aviso: O método pode não convergir (matriz não é estritamente diagonal dominante).");
+                System.out.println("Aviso: O método pode não convergir (matiz não é estritamente diagonal dominante e critério de Sassenfeld não satisfeito).");
             } else {
                 System.out.println("Convergência garantida!");
             }
